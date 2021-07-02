@@ -1,6 +1,5 @@
 #Author : Isanur Sardar
 import requests
-import json
 
 date = input('Write the date in the format(including inveerted comma) : 'dd-mm-yyyy'  :: ')
 pin = str(input('Write the Pincode of your area in the format : XXXXXX  :: '))
