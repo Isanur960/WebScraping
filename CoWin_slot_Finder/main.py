@@ -1,7 +1,7 @@
 #Author : Isanur Sardar
 import requests
 
-date = input('Write the date in the format(including inveerted comma) : 'dd-mm-yyyy'  :: ')
+date = input("Write the date in the format(including inveerted comma) : 'dd-mm-yyyy'  :: ")
 pin = str(input('Write the Pincode of your area in the format : XXXXXX  :: '))
 url = 'https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByPin?pincode='+pin+'&date='+date
 response = requests.get(url)
